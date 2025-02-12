@@ -726,15 +726,31 @@ body {
         grid-template-columns:1fr 1fr;
         gap: 10px;
     }
+
+    .mission-container h1 {
+        font-size: 2rem;
+    } 
+     .mission-container {
+        padding-left: 4rem;
+    }
     
   
 }
 
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 568px)  {
+   
 
-} */
+    .mission-container h1 {
+        font-size: 2rem;
+    }
+} 
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
+
+   
+
+
+
  
     .hero {
         padding: 100px 10px 10px; 
